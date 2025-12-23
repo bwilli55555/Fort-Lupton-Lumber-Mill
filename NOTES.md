@@ -31,9 +31,9 @@
 
 ### Technical Stack
 
-- **Format:** JSON-based content structure
-- **Hosting:** Wix platform
-- **Deployment:** Wix site builder integration
+- **Format:** HTML, CSS, JavaScript (vanilla)
+- **Hosting:**  GitHub Pages, Netlify, or Vercel (static hosting)
+- **Deployment:* Git-based deployment with continuous integration
 
 ## Success Criteria for "Website Complete"
 
@@ -79,28 +79,9 @@
 
 ## Architecture Decisions
 
-**Decision 1:** JSON schema approach  
-- Given Wix hosting constraint, use JSON to define content structure and page schemas
-- JSON files serve as "source of truth" for site content and can guide Wix page builder setup
-
-**Decision 2:** Hybrid information + e-commerce model  
-- Prioritize information architecture first (5 informational pages)
-- "Order Shavings Now" page as lightweight e-commerce entry point
-- Keep order form simple initially; can expand to full Wix Store later if needed
-
-## Open Questions & TODOs
-
-- [ ] Confirm actual business location and contact details
-- [ ] Obtain product photos or use stock lumber/shavings imagery
-- [ ] Clarify payment processing requirements (Wix Payments, PayPal, offline?)
-- [ ] Define shavings product variants (bag sizes, wood types, bulk options)
-- [ ] Determine delivery/shipping options and coverage area
-- [ ] Confirm if mill offers custom cutting services or additional products beyond standard lumber and shavings
-
-## Phase Progress
-
-- **Phase 0 (Initialize):** In Progress
-- **Phase 1 (Plan):** Not Started
-- **Phase 2 (Implement):** Not Started
-- **Phase 3 (Integrate & Polish):** Not Started
-- **Phase 4 (Deploy & Finalize):** Not Started
+**Decision 1:** JSON schema approach Static HTML/CSS/JS architecture
+- Given Build a fully functional static website using HTML, CSS, and vanilla JavaScript
+- JSON schema serves as content structure reference for building HTML pages
+- Separate HTML files for each page with shared header/footer components
+- CSS for styling, responsive design, and branding
+- JavaScript for interactive elements (navigation, forms, FAQ accordions)
