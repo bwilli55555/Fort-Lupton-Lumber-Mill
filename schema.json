@@ -1,0 +1,572 @@
+{
+  "$schema": "Fort Lupton Lumber Mill Website Schema v1.0",
+  "lastUpdated": "2025-12-23",
+  "pages": [
+    {
+      "id": "home",
+      "title": "Home - Fort Lupton Lumber Mill",
+      "path": "/",
+      "metaDescription": "Fort Lupton Lumber Mill provides quality lumber and animal bedding shavings to farms and businesses in Colorado. Custom cutting, delivery available.",
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero-banner",
+          "wixComponent": "Header Section with Background Image",
+          "content": {
+            "heading": "Quality Lumber & Shavings",
+            "subheading": "Serving Colorado Farms and Businesses Since [YEAR]",
+            "body": "Premium lumber products and animal bedding shavings delivered to your door",
+            "cta": {
+              "text": "Order Shavings Now",
+              "link": "/order-shavings-now",
+              "style": "primary-button"
+            },
+            "backgroundImage": "[Placeholder: Lumber mill or wood pile image]",
+            "overlayOpacity": 0.3
+          }
+        },
+        {
+          "id": "value-props",
+          "type": "three-column-grid",
+          "wixComponent": "Multi-Column Text Blocks",
+          "heading": "Why Choose Fort Lupton Lumber Mill?",
+          "items": [
+            {
+              "icon": "quality-badge",
+              "title": "Premium Quality",
+              "description": "Locally sourced, kiln-dried lumber and clean shavings for optimal performance"
+            },
+            {
+              "icon": "truck",
+              "title": "Fast Delivery",
+              "description": "Same-day and next-day delivery available throughout the Front Range region"
+            },
+            {
+              "icon": "custom-cut",
+              "title": "Custom Cutting",
+              "description": "Precision milling services to meet your exact specifications"
+            }
+          ]
+        },
+        {
+          "id": "products-preview",
+          "type": "two-column-split",
+          "wixComponent": "Split Layout with Images",
+          "items": [
+            {
+              "title": "Lumber Products",
+              "description": "Dimensional lumber, beams, posts, and specialty wood products for construction and agricultural use.",
+              "image": "[Placeholder: Stacked lumber]",
+              "link": "/services"
+            },
+            {
+              "title": "Animal Bedding Shavings",
+              "description": "Clean, dust-free wood shavings perfect for horses, livestock, and poultry. Available in bags or bulk.",
+              "image": "[Placeholder: Shavings in stall]",
+              "link": "/order-shavings-now"
+            }
+          ]
+        },
+        {
+          "id": "cta-banner",
+          "type": "call-to-action",
+          "wixComponent": "Strip with Button",
+          "content": {
+            "heading": "Ready to Order?",
+            "body": "Get your premium shavings delivered this week",
+            "cta": {
+              "text": "Shop Shavings",
+              "link": "/order-shavings-now",
+              "style": "primary-button-large"
+            },
+            "backgroundColor": "#3B5D3A"
+          }
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "title": "About Us - Fort Lupton Lumber Mill",
+      "path": "/about",
+      "metaDescription": "Learn about Fort Lupton Lumber Mill's history, values, and commitment to quality lumber and shavings products.",
+      "sections": [
+        {
+          "id": "page-header",
+          "type": "page-title",
+          "wixComponent": "Title Section",
+          "content": {
+            "heading": "About Fort Lupton Lumber Mill",
+            "subheading": "Family-owned and operated since [YEAR]"
+          }
+        },
+        {
+          "id": "story",
+          "type": "text-with-image",
+          "wixComponent": "Text and Media Side-by-Side",
+          "content": {
+            "heading": "Our Story",
+            "body": "[Placeholder: Fort Lupton Lumber Mill has been serving the agricultural and construction communities of Colorado for [X] years. Founded by [Founder Name], our mill combines traditional craftsmanship with modern equipment to deliver consistent quality. We take pride in our relationships with local farmers, ranchers, contractors, and homeowners who rely on us for their lumber and bedding needs.]",
+            "image": "[Placeholder: Historic mill photo or founder photo]",
+            "imagePosition": "right"
+          }
+        },
+        {
+          "id": "values",
+          "type": "text-list",
+          "wixComponent": "List with Icons",
+          "heading": "Our Values",
+          "items": [
+            {
+              "title": "Quality First",
+              "description": "Every board and bag meets our strict standards for consistency and cleanliness"
+            },
+            {
+              "title": "Customer Service",
+              "description": "We're here to answer questions, provide advice, and ensure satisfaction"
+            },
+            {
+              "title": "Community Focus",
+              "description": "Supporting local agriculture and business is at the heart of what we do"
+            },
+            {
+              "title": "Sustainability",
+              "description": "Responsible sourcing and minimal waste in all our operations"
+            }
+          ]
+        },
+        {
+          "id": "team",
+          "type": "team-grid",
+          "wixComponent": "Team Members Grid",
+          "heading": "Meet Our Team",
+          "items": [
+            {
+              "name": "[Owner Name]",
+              "title": "Owner / Operator",
+              "photo": "[Placeholder]",
+              "bio": "[Brief bio]"
+            },
+            {
+              "name": "[Team Member]",
+              "title": "Mill Manager",
+              "photo": "[Placeholder]",
+              "bio": "[Brief bio]"
+            }
+          ],
+          "note": "To be populated with actual team information"
+        },
+        {
+          "id": "facilities",
+          "type": "text-block",
+          "wixComponent": "Rich Text Block",
+          "content": {
+            "heading": "Our Facilities",
+            "body": "[Placeholder: Description of mill equipment, storage capacity, processing capabilities, and facility features. Highlight kiln-drying, custom cutting equipment, clean processing for shavings, etc.]"
+          }
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "title": "Services - Fort Lupton Lumber Mill",
+      "path": "/services",
+      "metaDescription": "Lumber products, custom cutting, shavings delivery, and milling services from Fort Lupton Lumber Mill.",
+      "sections": [
+        {
+          "id": "page-header",
+          "type": "page-title",
+          "wixComponent": "Title Section",
+          "content": {
+            "heading": "Our Services",
+            "subheading": "Complete lumber and milling solutions for your project"
+          }
+        },
+        {
+          "id": "service-list",
+          "type": "service-cards",
+          "wixComponent": "Repeating Card Layout",
+          "items": [
+            {
+              "title": "Dimensional Lumber",
+              "description": "Standard dimensional lumber in all common sizes: 2x4, 2x6, 2x8, 2x10, 2x12, 4x4, 6x6, and more. Available in various lengths and grades.",
+              "features": [
+                "Kiln-dried for stability",
+                "Graded for structural use",
+                "Pine, fir, and cedar options",
+                "Bulk pricing available"
+              ],
+              "image": "[Placeholder: Lumber stack]"
+            },
+            {
+              "title": "Custom Milling & Cutting",
+              "description": "Precision cutting services to meet your exact specifications. Whether you need beams, posts, or specialty dimensions, we can mill it.",
+              "features": [
+                "Custom dimensions and lengths",
+                "Notching and dado cuts",
+                "Planing and surfacing",
+                "Fast turnaround times"
+              ],
+              "image": "[Placeholder: Mill equipment]"
+            },
+            {
+              "title": "Animal Bedding Shavings",
+              "description": "Premium wood shavings for horses, livestock, and poultry. Clean, dust-free, and highly absorbent.",
+              "features": [
+                "Multiple bag sizes available",
+                "Bulk delivery options",
+                "Consistent quality",
+                "Kiln-dried for low moisture"
+              ],
+              "link": "/order-shavings-now",
+              "image": "[Placeholder: Shavings bags]"
+            },
+            {
+              "title": "Delivery Services",
+              "description": "We deliver throughout the Front Range region. Same-day and next-day options available for most orders.",
+              "features": [
+                "Flatbed and enclosed trucks",
+                "Unloading assistance available",
+                "Scheduled or rush delivery",
+                "Delivery radius: [X] miles"
+              ],
+              "image": "[Placeholder: Delivery truck]"
+            },
+            {
+              "title": "Fencing Materials",
+              "description": "Complete fencing supplies including posts, rails, boards, and hardware for agricultural and residential use.",
+              "features": [
+                "Treated and untreated options",
+                "Various wood species",
+                "Custom lengths available",
+                "Volume discounts"
+              ],
+              "image": "[Placeholder: Fence materials]"
+            },
+            {
+              "title": "Specialty Products",
+              "description": "Beams, barn wood, siding, and other specialty lumber products. Contact us for availability and custom orders.",
+              "features": [
+                "Reclaimed barn wood",
+                "Timber framing beams",
+                "Decorative siding",
+                "Special order capability"
+              ],
+              "image": "[Placeholder: Specialty wood]"
+            }
+          ]
+        },
+        {
+          "id": "consultation-cta",
+          "type": "call-to-action",
+          "wixComponent": "CTA Strip",
+          "content": {
+            "heading": "Not Sure What You Need?",
+            "body": "Our team is happy to discuss your project and recommend the right products",
+            "cta": {
+              "text": "Contact Us",
+              "link": "/contact",
+              "style": "secondary-button"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "order-shavings-now",
+      "title": "Order Shavings Now - Fort Lupton Lumber Mill",
+      "path": "/order-shavings-now",
+      "metaDescription": "Order premium wood shavings for horses, livestock, and poultry. Fast delivery throughout Colorado. Multiple sizes available.",
+      "sections": [
+        {
+          "id": "page-header",
+          "type": "page-title",
+          "wixComponent": "Title Section",
+          "content": {
+            "heading": "Order Premium Wood Shavings",
+            "subheading": "Clean, dust-free bedding delivered to your door"
+          }
+        },
+        {
+          "id": "product-catalog",
+          "type": "product-grid",
+          "wixComponent": "Wix Stores Product Gallery",
+          "products": [
+            {
+              "sku": "SHAV-BAG-SM",
+              "name": "Small Bag Shavings",
+              "description": "Compressed bale, approx. 2.8 cu ft expanded",
+              "price": {
+                "base": 6.99,
+                "currency": "USD"
+              },
+              "image": "[Placeholder: Small shavings bag]",
+              "inStock": true
+            },
+            {
+              "sku": "SHAV-BAG-LG",
+              "name": "Large Bag Shavings",
+              "description": "Compressed bale, approx. 5.5 cu ft expanded",
+              "price": {
+                "base": 11.99,
+                "currency": "USD"
+              },
+              "image": "[Placeholder: Large shavings bag]",
+              "inStock": true
+            },
+            {
+              "sku": "SHAV-BULK",
+              "name": "Bulk Shavings (by the yard)",
+              "description": "Loose shavings delivered in bulk, minimum 5 yards",
+              "price": {
+                "base": 35.00,
+                "unit": "per cubic yard",
+                "currency": "USD",
+                "minimum": 5
+              },
+              "inStock": true,
+              "note": "Contact for delivery quote"
+            }
+          ]
+        },
+        {
+          "id": "order-form",
+          "type": "order-form",
+          "wixComponent": "Wix Forms or Wix Stores Checkout",
+          "fields": [
+            {
+              "id": "customer_name",
+              "label": "Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "id": "customer_email",
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "id": "customer_phone",
+              "label": "Phone",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "id": "delivery_address",
+              "label": "Delivery Address",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "id": "product_selection",
+              "label": "Product & Quantity",
+              "type": "select-with-quantity",
+              "required": true
+            },
+            {
+              "id": "delivery_instructions",
+              "label": "Delivery Instructions",
+              "type": "textarea",
+              "required": false
+            }
+          ],
+          "submitAction": "email-notification-and-wix-order",
+          "submitButton": "Place Order"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "FAQ - Fort Lupton Lumber Mill",
+      "path": "/faq",
+      "metaDescription": "Frequently asked questions about lumber products, shavings, delivery, and services from Fort Lupton Lumber Mill.",
+      "sections": [
+        {
+          "id": "page-header",
+          "type": "page-title",
+          "wixComponent": "Title Section",
+          "content": {
+            "heading": "Frequently Asked Questions",
+            "subheading": "Everything you need to know about our products and services"
+          }
+        },
+        {
+          "id": "faq-list",
+          "type": "faq-accordion",
+          "wixComponent": "Wix FAQ / Accordion",
+          "items": [
+            {
+              "question": "What types of wood shavings do you offer?",
+              "answer": "We offer kiln-dried pine shavings in small bags, large bags, and bulk delivery. All shavings are clean, dust-free, and ideal for horse stalls, livestock bedding, and poultry coops."
+            },
+            {
+              "question": "How much area does one bag of shavings cover?",
+              "answer": "A small bag (2.8 cu ft) covers approximately one standard horse stall at 3-4 inches deep. A large bag (5.5 cu ft) covers roughly two stalls."
+            },
+            {
+              "question": "Do you deliver?",
+              "answer": "Yes! We deliver throughout the Front Range region. Same-day and next-day delivery options are available for most orders. Delivery fees vary by distance."
+            },
+            {
+              "question": "Can I pick up my order?",
+              "answer": "Absolutely. We offer will-call pickup at our Fort Lupton facility. Please call ahead to ensure your order is ready."
+            },
+            {
+              "question": "Do you cut lumber to custom sizes?",
+              "answer": "Yes, we provide custom milling and cutting services. Bring us your specifications and we'll cut to your exact dimensions."
+            },
+            {
+              "question": "What are your hours of operation?",
+              "answer": "[Placeholder: Monday-Friday 7AM-5PM, Saturday 8AM-2PM, Closed Sunday]"
+            },
+            {
+              "question": "Do you offer discounts for bulk orders?",
+              "answer": "Yes, volume discounts are available for large orders of lumber and shavings. Contact us for a quote."
+            },
+            {
+              "question": "What payment methods do you accept?",
+              "answer": "We accept cash, checks, and all major credit cards. Commercial accounts available for qualifying businesses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact Us - Fort Lupton Lumber Mill",
+      "path": "/contact",
+      "metaDescription": "Contact Fort Lupton Lumber Mill for lumber, shavings, and custom cutting services. Phone, email, and location information.",
+      "sections": [
+        {
+          "id": "page-header",
+          "type": "page-title",
+          "wixComponent": "Title Section",
+          "content": {
+            "heading": "Contact Us",
+            "subheading": "We're here to help with your lumber and shavings needs"
+          }
+        },
+        {
+          "id": "contact-info",
+          "type": "info-grid",
+          "wixComponent": "Multi-Column Text",
+          "items": [
+            {
+              "type": "phone",
+              "label": "Phone",
+              "value": "[XXX-XXX-XXXX]",
+              "icon": "phone"
+            },
+            {
+              "type": "email",
+              "label": "Email",
+              "value": "[info@fortluptonlumber.com]",
+              "icon": "email"
+            },
+            {
+              "type": "hours",
+              "label": "Hours",
+              "value": "[Mon-Fri 7AM-5PM, Sat 8AM-2PM]",
+              "icon": "clock"
+            },
+            {
+              "type": "address",
+              "label": "Location",
+              "value": "[Address]\nFort Lupton, CO [ZIP]",
+              "icon": "map-pin"
+            }
+          ]
+        },
+        {
+          "id": "contact-form",
+          "type": "contact-form",
+          "wixComponent": "Wix Forms",
+          "fields": [
+            {
+              "id": "name",
+              "label": "Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "id": "email",
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "id": "phone",
+              "label": "Phone",
+              "type": "tel",
+              "required": false
+            },
+            {
+              "id": "subject",
+              "label": "Subject",
+              "type": "text",
+              "required": true
+            },
+            {
+              "id": "message",
+              "label": "Message",
+              "type": "textarea",
+              "required": true
+            }
+          ],
+          "submitAction": "email-to-business",
+          "submitButton": "Send Message"
+        },
+        {
+          "id": "map",
+          "type": "map",
+          "wixComponent": "Google Maps Embed",
+          "content": {
+            "coordinates": null,
+            "note": "To be configured with actual mill address"
+          }
+        }
+      ]
+    }
+  ],
+  "globalComponents": {
+    "header": {
+      "logo": "Fort Lupton Lumber Mill",
+      "navigation": [
+        {"label": "Home", "link": "/"},
+        {"label": "About", "link": "/about"},
+        {"label": "Services", "link": "/services"},
+        {"label": "Order Shavings Now", "link": "/order-shavings-now", "highlight": true},
+        {"label": "FAQ", "link": "/faq"},
+        {"label": "Contact", "link": "/contact"}
+      ]
+    },
+    "footer": {
+      "sections": [
+        {
+          "title": "Contact",
+          "content": [
+            "[Phone]",
+            "[Email]",
+            "[Address]"
+          ]
+        },
+        {
+          "title": "Hours",
+          "content": [
+            "[Business hours]"
+          }
+        },
+        {
+          "title": "Quick Links",
+          "links": [
+            {"label": "Services", "link": "/services"},
+            {"label": "Order Shavings", "link": "/order-shavings-now"},
+            {"label": "FAQ", "link": "/faq"},
+            {"label": "Contact", "link": "/contact"}
+          ]
+        }
+      ],
+      "copyright": "© 2025 Fort Lupton Lumber Mill. All rights reserved."
+    }
+  }
+}
