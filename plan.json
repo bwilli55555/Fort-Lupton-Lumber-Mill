@@ -1,0 +1,323 @@
+{
+  "projectName": "Fort Lupton Lumber Mill Website",
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-23",
+  "phases": [
+    {
+      "id": "phase0",
+      "title": "Phase 0: Initialize Project",
+      "status": "in_progress",
+      "tasks": [
+        {
+          "id": "p0_t1",
+          "title": "Create project structure and skeleton files",
+          "status": "in_progress",
+          "dependencies": [],
+          "deliverables": [
+            "site config (JSON)",
+            "NOTES.md",
+            "plan.json",
+            "README.md",
+            ".gitignore"
+          ]
+        },
+        {
+          "id": "p0_t2",
+          "title": "Initialize git repository and make first commits",
+          "status": "pending",
+          "dependencies": ["p0_t1"],
+          "deliverables": ["Initial commit with project skeleton"]
+        }
+      ]
+    },
+    {
+      "id": "phase1",
+      "title": "Phase 1: Plan",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "p1_t1",
+          "title": "Define detailed page structures and content schemas",
+          "status": "pending",
+          "dependencies": ["p0_t2"],
+          "deliverables": [
+            "schema.json with complete page definitions",
+            "Content outline for each page"
+          ],
+          "notes": "Expand site config into detailed JSON schemas for Home, About, Services, Order Shavings, FAQ, Contact pages"
+        },
+        {
+          "id": "p1_t2",
+          "title": "Design information architecture and navigation flow",
+          "status": "pending",
+          "dependencies": ["p1_t1"],
+          "deliverables": [
+            "Site map diagram",
+            "Navigation structure documentation"
+          ]
+        },
+        {
+          "id": "p1_t3",
+          "title": "Define e-commerce requirements for Order Shavings page",
+          "status": "pending",
+          "dependencies": ["p1_t1"],
+          "deliverables": [
+            "Product catalog structure",
+            "Order form field definitions",
+            "Payment/fulfillment workflow spec"
+          ]
+        },
+        {
+          "id": "p1_t4",
+          "title": "Create Wix integration plan",
+          "status": "pending",
+          "dependencies": ["p1_t2", "p1_t3"],
+          "deliverables": [
+            "Mapping of JSON structure to Wix elements",
+            "Wix feature requirements list"
+          ],
+          "notes": "Document how JSON content translates to Wix page builder components"
+        },
+        {
+          "id": "p1_t5",
+          "title": "Get human approval on plan before implementation",
+          "status": "pending",
+          "dependencies": ["p1_t4"],
+          "deliverables": ["Approved plan with stakeholder sign-off"],
+          "checkpoint": true
+        }
+      ]
+    },
+    {
+      "id": "phase2",
+      "title": "Phase 2: Implement in Loops",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "p2_t1",
+          "title": "Implement Home page content and structure",
+          "status": "pending",
+          "dependencies": ["p1_t5"],
+          "deliverables": [
+            "Home page JSON content complete",
+            "Hero section defined",
+            "Key offerings highlights"
+          ]
+        },
+        {
+          "id": "p2_t2",
+          "title": "Implement About page content",
+          "status": "pending",
+          "dependencies": ["p1_t5"],
+          "deliverables": [
+            "About page JSON content",
+            "Company history text",
+            "Team/facilities placeholders"
+          ]
+        },
+        {
+          "id": "p2_t3",
+          "title": "Implement Services page with detailed offerings",
+          "status": "pending",
+          "dependencies": ["p1_t5"],
+          "deliverables": [
+            "Services page JSON content",
+            "Service descriptions",
+            "Capabilities list"
+          ]
+        },
+        {
+          "id": "p2_t4",
+          "title": "Implement Order Shavings Now page with product catalog",
+          "status": "pending",
+          "dependencies": ["p1_t5", "p1_t3"],
+          "deliverables": [
+            "Product listing JSON",
+            "Order form structure",
+            "E-commerce workflow defined"
+          ]
+        },
+        {
+          "id": "p2_t5",
+          "title": "Implement FAQ page",
+          "status": "pending",
+          "dependencies": ["p1_t5"],
+          "deliverables": [
+            "FAQ JSON content",
+            "Q&A pairs for common questions"
+          ]
+        },
+        {
+          "id": "p2_t6",
+          "title": "Implement Contact page",
+          "status": "pending",
+          "dependencies": ["p1_t5"],
+          "deliverables": [
+            "Contact page JSON",
+            "Contact form fields",
+            "Location/hours information"
+          ]
+        },
+        {
+          "id": "p2_t7",
+          "title": "Apply branding and theme consistently",
+          "status": "pending",
+          "dependencies": ["p2_t1", "p2_t2", "p2_t3", "p2_t4", "p2_t5", "p2_t6"],
+          "deliverables": [
+            "Color scheme applied (#3B5D3A, #F5E3C3)",
+            "Typography standardized",
+            "Logo placeholders positioned"
+          ]
+        },
+        {
+          "id": "p2_t8",
+          "title": "Create navigation system JSON",
+          "status": "pending",
+          "dependencies": ["p2_t7"],
+          "deliverables": ["Navigation menu structure", "Cross-page linking defined"]
+        }
+      ]
+    },
+    {
+      "id": "phase3",
+      "title": "Phase 3: Integrate & Polish",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "p3_t1",
+          "title": "Validate all JSON schemas",
+          "status": "pending",
+          "dependencies": ["p2_t8"],
+          "deliverables": ["Schema validation report", "Fixed any JSON errors"]
+        },
+        {
+          "id": "p3_t2",
+          "title": "Create Wix implementation guide",
+          "status": "pending",
+          "dependencies": ["p3_t1"],
+          "deliverables": [
+            "Step-by-step Wix setup instructions",
+            "Component mapping guide",
+            "Content import workflow"
+          ],
+          "notes": "Document how to translate JSON into Wix page builder"
+        },
+        {
+          "id": "p3_t3",
+          "title": "Review content completeness and quality",
+          "status": "pending",
+          "dependencies": ["p3_t1"],
+          "deliverables": [
+            "Content audit report",
+            "Identified gaps or placeholder content"
+          ]
+        },
+        {
+          "id": "p3_t4",
+          "title": "Optimize for mobile responsiveness (design notes)",
+          "status": "pending",
+          "dependencies": ["p3_t3"],
+          "deliverables": ["Mobile layout guidelines", "Responsive design notes"]
+        },
+        {
+          "id": "p3_t5",
+          "title": "Define SEO elements",
+          "status": "pending",
+          "dependencies": ["p3_t3"],
+          "deliverables": [
+            "Page titles and meta descriptions",
+            "Keywords and alt text guidelines"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase4",
+      "title": "Phase 4: Deploy & Finalize",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "p4_t1",
+          "title": "Prepare deployment package",
+          "status": "pending",
+          "dependencies": ["p3_t5"],
+          "deliverables": [
+            "All JSON files finalized",
+            "Implementation guide complete",
+            "Asset inventory (images, logos needed)"
+          ]
+        },
+        {
+          "id": "p4_t2",
+          "title": "Create Wix staging site",
+          "status": "pending",
+          "dependencies": ["p4_t1"],
+          "deliverables": [
+            "Wix staging environment URL",
+            "Initial pages created in Wix"
+          ],
+          "notes": "Manual step: use Wix builder to implement JSON content"
+        },
+        {
+          "id": "p4_t3",
+          "title": "Test all functionality",
+          "status": "pending",
+          "dependencies": ["p4_t2"],
+          "deliverables": [
+            "Navigation test results",
+            "Form functionality verified",
+            "Mobile responsiveness checked"
+          ],
+          "checkpoint": true
+        },
+        {
+          "id": "p4_t4",
+          "title": "Address issues and iterate",
+          "status": "pending",
+          "dependencies": ["p4_t3"],
+          "deliverables": ["Bug fixes", "Content updates", "Design tweaks"]
+        },
+        {
+          "id": "p4_t5",
+          "title": "Get approval for production deployment",
+          "status": "pending",
+          "dependencies": ["p4_t4"],
+          "deliverables": ["Stakeholder approval for go-live"],
+          "checkpoint": true
+        },
+        {
+          "id": "p4_t6",
+          "title": "Deploy to production",
+          "status": "pending",
+          "dependencies": ["p4_t5"],
+          "deliverables": [
+            "Production Wix site URL",
+            "Site accessible and functional"
+          ]
+        },
+        {
+          "id": "p4_t7",
+          "title": "Create final project summary",
+          "status": "pending",
+          "dependencies": ["p4_t6"],
+          "deliverables": [
+            "Architecture documentation",
+            "Key decisions log",
+            "Maintenance and update guide"
+          ]
+        }
+      ]
+    }
+  ],
+  "overallStatus": "Phase 0 in progress",
+  "completionCriteria": {
+    "pagesComplete": false,
+    "navigationFunctional": false,
+    "ecommerceReady": false,
+    "contentPopulated": false,
+    "brandingApplied": false,
+    "deployedToStaging": false,
+    "deployedToProduction": false,
+    "testsPassed": false
+  }
+}
