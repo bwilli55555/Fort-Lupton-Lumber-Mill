@@ -34,7 +34,7 @@ This repository contains the JSON-based content structure and planning documenta
 ## Tech Stack
 
 - **Content Format:** JSON schemas defining page structure and content
-- **Hosting Platform:** Wix
+- **Hosting Platform:** Custom domain
 - **Version Control:** Git/GitHub for content management
 
 ## Project Phases
@@ -47,7 +47,7 @@ This repository contains the JSON-based content structure and planning documenta
 ### Phase 1: Plan
 - Define detailed page structures and content schemas
 - Design information architecture
-- Create Wix integration plan
+- Create json integration plan
 - Get human approval before implementation
 
 ### Phase 2: Implement
@@ -57,20 +57,20 @@ This repository contains the JSON-based content structure and planning documenta
 
 ### Phase 3: Integrate & Polish
 - Validate all JSON schemas
-- Create Wix implementation guide
+- Create implementation guide
 - Review content completeness
 - Define SEO elements
 
 ### Phase 4: Deploy & Finalize
 - Prepare deployment package
-- Create Wix staging site
+- Create staging site
 - Test all functionality
 - Deploy to production
 - Document architecture and maintenance
 
 ## Getting Started
 
-This is a content repository for a Wix-based website. To use this content:
+This is a content repository for a JSON based website. To use this content:
 
 1. **Review** `NOTES.md` for detailed requirements and success criteria
 2. **Examine** `plan.json` for the complete task breakdown
