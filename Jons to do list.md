@@ -160,5 +160,4 @@ Use this space to add any additional information, preferences, or questions:
 **Instructions**: 
 - Check off items as you provide them
 - Add answers directly in this document or send separately
-- Contact [developer name/email] when sections are complete
 - Priority items are needed before launch; other items can be added as you gather them
