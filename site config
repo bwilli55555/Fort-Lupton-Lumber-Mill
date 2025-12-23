@@ -1,0 +1,22 @@
+{
+  "site": {
+    "businessName": "Example Lumber Mill",
+    "tagline": "Quality lumber and shavings for farms and businesses",
+    "primaryGoals": ["information", "e-commerce"],
+    "hosting": "wix",
+    "theme": {
+      "primaryColor": "#3B5D3A",
+      "secondaryColor": "#F5E3C3",
+      "fontFamily": "Sans-Serif",
+      "logoPlaceholder": true
+    },
+    "navigation": [
+      "home",
+      "about",
+      "services",
+      "order-shavings-now",
+      "faq",
+      "contact"
+    ]
+  }
+}
