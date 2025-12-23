@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Shavings – Fort Lupton Lumber Mill</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Order premium livestock shavings online. Clean, dust-free wood shavings delivered to your farm or stable in the Fort Lupton area.">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">Fort Lupton Lumber Mill</a>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="order-shavings.html">Order Shavings</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Order Livestock Shavings</h1>
+        <p>Premium quality shavings for your animals</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Place Your Order</h2>
+        <p>Fill out the form below to request a quote or place an order for livestock shavings. We'll get back to you within 24 hours to confirm availability and pricing.</p>
+        
+        <form>
+          <div>
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div>
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div>
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          
+          <div>
+            <label for="address">Delivery Address</label>
+            <input type="text" id="address" name="address" placeholder="Street address, city, state, zip">
+          </div>
+          
+          <div>
+            <label for="quantity">Quantity *</label>
+            <select id="quantity" name="quantity" required>
+              <option value="">Select quantity</option>
+              <option value="1-5">1-5 bags</option>
+              <option value="6-10">6-10 bags</option>
+              <option value="11-20">11-20 bags</option>
+              <option value="21-50">21-50 bags</option>
+              <option value="50+">50+ bags (bulk order)</option>
+            </select>
+          </div>
+          
+          <div>
+            <label for="shavings-type">Shavings Type *</label>
+            <select id="shavings-type" name="shavings-type" required>
+              <option value="">Select type</option>
+              <option value="horse-stall">Horse Stall Shavings</option>
+              <option value="small-animal">Small Animal Bedding</option>
+              <option value="general">General Purpose</option>
+            </select>
+          </div>
+          
+          <div>
+            <label for="delivery">Delivery Option *</label>
+            <select id="delivery" name="delivery" required>
+              <option value="">Select option</option>
+              <option value="pickup">Pickup at mill</option>
+              <option value="delivery">Delivery (Fort Lupton area)</option>
+            </select>
+          </div>
+          
+          <div>
+            <label for="notes">Additional Notes</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Any special instructions or questions?"></textarea>
+          </div>
+          
+          <button type="submit" class="btn-primary">Submit Order Request</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" style="background-color: #f5f5f5;">
+      <div class="container">
+        <h2>Pricing Information</h2>
+        <p>Our shavings are competitively priced with volume discounts available for bulk orders.</p>
+        <ul>
+          <li>Individual bags: Contact for current pricing</li>
+          <li>Bulk orders (20+ bags): Special discounted rates</li>
+          <li>Delivery available within 30 miles of Fort Lupton</li>
+          <li>Free pickup at our mill location</li>
+        </ul>
+        <p><strong>Note:</strong> Prices subject to change. We'll provide an exact quote when we confirm your order.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Product Details</h2>
+        <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+          <div class="card">
+            <h3>Premium Quality</h3>
+            <p>Made from clean, kiln-dried lumber with minimal dust for healthier animals.</p>
+          </div>
+          <div class="card">
+            <h3>High Absorbency</h3>
+            <p>Excellent moisture absorption keeps stalls drier and reduces odors.</p>
+          </div>
+          <div class="card">
+            <h3>Convenient Packaging</h3>
+            <p>Available in easy-to-handle compressed bales for storage and transport.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background-color: #f5f5f5;">
+      <div class="container">
+        <h2>Questions?</h2>
+        <p>If you have questions about our shavings or need help with your order, check our <a href="faq.html">FAQ page</a> or <a href="contact.html">contact us</a> directly.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Fort Lupton Lumber Mill. All rights reserved.</p>
+      <p>Fort Lupton, Colorado</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
