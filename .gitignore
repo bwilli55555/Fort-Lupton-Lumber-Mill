@@ -1,0 +1,54 @@
+# Project-specific temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Environment variables (if used)
+.env
+.env.local
+
+# Drafts and work-in-progress
+drafts/
+wip/
+*.draft
+
+# Build outputs (if automation is added later)
+build/
+dist/
+out/
+
+# Dependencies (if Node.js tooling is added)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Wix export files (if generated)
+wix-export/
+*.wixsite
+
+# Backup and archive files
+*.zip
+*.tar.gz
+*.rar
