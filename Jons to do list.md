@@ -15,7 +15,7 @@ Jon, please provide the following information to complete the website. Each sect
 
 ### Contact Information
 - [ ] **Phone Number**: Main business phone
-- [ ] **Email Address**: Primary business email (e.g., info@fortluptonlumber.com)
+- [ ] **Email Address**: Primary business email 
 - [ ] **Physical Address**: Complete street address, city, state, ZIP
 - [ ] **Business Hours**: 
   - Monday-Friday: ___________
