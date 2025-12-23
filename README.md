@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the JSON-based content structure and planning documentation for the Fort Lupton Lumber Mill website. The site will be deployed using Wix and serves both informational and e-commerce purposes.
+This repository contains the JSON-based content structure and planning documentation for the Fort Lupton Lumber Mill website. The site will be deployed using HTML YMSL or JS and serves both informational and e-commerce purposes.
 
 ## Business Information
 
