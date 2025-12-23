@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us – Fort Lupton Lumber Mill</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get in touch with Fort Lupton Lumber Mill. Visit us, call, or send us a message. We're here to help with all your lumber and shavings needs.">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">Fort Lupton Lumber Mill</a>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="order-shavings.html">Order Shavings</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>We're here to answer your questions and help with your project</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+          <div>
+            <h2>Get In Touch</h2>
+            <p>Have a question about our products or services? Fill out the form and we'll get back to you as soon as possible.</p>
+            
+            <form>
+              <div>
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div>
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              
+              <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              
+              <div>
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              
+              <div>
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+              </div>
+              
+              <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+          </div>
+          
+          <div>
+            <h2>Contact Information</h2>
+            
+            <div class="card" style="margin-bottom: 1.5rem;">
+              <h3>Address</h3>
+              <p>Fort Lupton Lumber Mill<br>
+Fort Lupton, Colorado</p>
+            </div>
+            
+            <div class="card" style="margin-bottom: 1.5rem;">
+              <h3>Phone</h3>
+              <p>Call us during business hours</p>
+            </div>
+            
+            <div class="card" style="margin-bottom: 1.5rem;">
+              <h3>Email</h3>
+              <p>info@fortluptonlumber.com</p>
+            </div>
+            
+            <div class="card">
+              <h3>Hours</h3>
+              <p>
+                <strong>Monday - Friday:</strong> 8:00 AM - 5:00 PM<br>
+                <strong>Saturday:</strong> 9:00 AM - 3:00 PM<br>
+                <strong>Sunday:</strong> Closed
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background-color: #f5f5f5;">
+      <div class="container">
+        <h2>Visit Our Mill</h2>
+        <p>Stop by our mill in Fort Lupton to see our operation, browse our products, and speak with our knowledgeable team. We're happy to provide guidance for your project and give you a tour of our facility.</p>
+        <div style="margin-top: 1.5rem; background-color: #e8e8e8; padding: 2rem; border-radius: 4px; text-align: center;">
+          <p style="margin: 0; color: #666;">[Map placeholder - Embed Google Maps here]</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>What To Expect</h2>
+        <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+          <div class="card">
+            <h3>Fast Response</h3>
+            <p>We typically respond to inquiries within 24 hours during business days.</p>
+          </div>
+          <div class="card">
+            <h3>Expert Advice</h3>
+            <p>Our team has years of experience and can help you choose the right products for your needs.</p>
+          </div>
+          <div class="card">
+            <h3>Custom Solutions</h3>
+            <p>We work with you to provide customized lumber and shavings solutions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Fort Lupton Lumber Mill. All rights reserved.</p>
+      <p>Fort Lupton, Colorado</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
